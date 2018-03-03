@@ -1,0 +1,338 @@
+2018-03-03 16:06:57.605  INFO 9752 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1622f1b: startup date [Sat Mar 03 16:06:57 IST 2018]; root of context hierarchy
+2018-03-03 16:07:00.588  INFO 9752 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ae3fb028] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+2018-03-03 16:07:03.421  INFO 9752 --- [           main] com.z4ventures.budd.BuddApplication      : No active profile set, falling back to default profiles: default
+2018-03-03 16:07:03.435  INFO 9752 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f9a2c08: startup date [Sat Mar 03 16:07:03 IST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1622f1b
+2018-03-03 16:07:05.352  INFO 9752 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
+2018-03-03 16:07:05.871  INFO 9752 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9707e39-c19c-325a-9b89-9ba83b70d558
+2018-03-03 16:07:06.148  INFO 9752 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9225ad2b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-03 16:07:06.181  INFO 9752 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'security.oauth2.client-org.springframework.boot.autoconfigure.security.oauth2.OAuth2ClientProperties' of type [org.springframework.boot.autoconfigure.security.oauth2.OAuth2ClientProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-03 16:07:06.184  INFO 9752 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.security.oauth2.OAuth2AutoConfiguration' of type [org.springframework.boot.autoconfigure.security.oauth2.OAuth2AutoConfiguration$$EnhancerBySpringCGLIB$$496f692b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-03 16:07:06.196  INFO 9752 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'resourceServerProperties' of type [org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-03 16:07:06.206  INFO 9752 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ae3fb028] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-03 16:07:09.230  INFO 9752 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2018-03-03 16:07:09.379  INFO 9752 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-03 16:07:09.380  INFO 9752 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-03-03 16:07:10.015  INFO 9752 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-03 16:07:10.016  INFO 9752 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6581 ms
+2018-03-03 16:07:10.351  INFO 9752 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2018-03-03 16:07:10.351  INFO 9752 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-03 16:07:10.351  INFO 9752 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-03 16:07:10.351  INFO 9752 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-03 16:07:10.352  INFO 9752 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-03 16:07:10.369  INFO 9752 --- [ost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-03-03 16:07:10.370  INFO 9752 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-03-03 16:07:10.370  INFO 9752 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-03-03 16:07:10.370  INFO 9752 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-03 16:07:13.325  INFO 9752 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-03 16:07:13.405  INFO 9752 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-03 16:07:14.969  INFO 9752 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-03-03 16:07:14.986  INFO 9752 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-03-03 16:07:14.989  INFO 9752 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-03-03 16:07:15.692  INFO 9752 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-03 16:07:16.245 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@250a9031
+2018-03-03 16:07:16.245 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@250a9031
+2018-03-03 16:07:16.247 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@250a9031
+2018-03-03 16:07:16.263 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7112ce6
+2018-03-03 16:07:16.279 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@40de8f93
+2018-03-03 16:07:16.300 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@f3560d4
+2018-03-03 16:07:16.363 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@28a9494b
+2018-03-03 16:07:16.363 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@28a9494b
+2018-03-03 16:07:16.363 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@28a9494b
+2018-03-03 16:07:16.412 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@5416f8db
+2018-03-03 16:07:16.412 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@5416f8db
+2018-03-03 16:07:16.413 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@5416f8db
+2018-03-03 16:07:16.428 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@e280403
+2018-03-03 16:07:16.428 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@e280403
+2018-03-03 16:07:16.428 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@e280403
+2018-03-03 16:07:16.429 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@6968c1d6
+2018-03-03 16:07:16.429 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@6968c1d6
+2018-03-03 16:07:16.429 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6968c1d6
+2018-03-03 16:07:16.440 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@5568c66f
+2018-03-03 16:07:16.440 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@5568c66f
+2018-03-03 16:07:16.440 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@5568c66f
+2018-03-03 16:07:16.442 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@5f05c8d6
+2018-03-03 16:07:16.442 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@5f05c8d6
+2018-03-03 16:07:16.442 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5f05c8d6
+2018-03-03 16:07:16.454 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@1a256d80
+2018-03-03 16:07:16.454 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@1a256d80
+2018-03-03 16:07:16.454 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1a256d80
+2018-03-03 16:07:16.470 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@39f5b723
+2018-03-03 16:07:16.470 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@39f5b723
+2018-03-03 16:07:16.485 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@31a2a9fa
+2018-03-03 16:07:16.485 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@31a2a9fa
+2018-03-03 16:07:16.486 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@36e43829
+2018-03-03 16:07:16.486 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@36e43829
+2018-03-03 16:07:16.487 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1d06f16f
+2018-03-03 16:07:16.505 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@80b122b
+2018-03-03 16:07:16.527 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@f9cab00
+2018-03-03 16:07:16.527 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@f9cab00
+2018-03-03 16:07:16.528 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@6a1d526c
+2018-03-03 16:07:16.529 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@6a1d526c
+2018-03-03 16:07:16.562 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@60e06f7d
+2018-03-03 16:07:16.563 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@60e06f7d
+2018-03-03 16:07:16.564 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@cedee22
+2018-03-03 16:07:16.564 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@cedee22
+2018-03-03 16:07:16.564 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@cedee22
+2018-03-03 16:07:16.565 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@233db8e9
+2018-03-03 16:07:16.566 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@6274670b
+2018-03-03 16:07:16.566 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6274670b
+2018-03-03 16:07:16.566 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6274670b
+2018-03-03 16:07:16.567 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@7f7b6639
+2018-03-03 16:07:16.583 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@6cd15072
+2018-03-03 16:07:16.583 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6cd15072
+2018-03-03 16:07:16.583 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@4887de2b
+2018-03-03 16:07:16.583 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@4887de2b
+2018-03-03 16:07:16.584 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@759de304
+2018-03-03 16:07:16.584 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@759de304
+2018-03-03 16:07:16.585 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@2582b0ef
+2018-03-03 16:07:16.585 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2582b0ef
+2018-03-03 16:07:16.588 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6dd36ab6
+2018-03-03 16:07:16.588 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6dd36ab6
+2018-03-03 16:07:16.589 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@53c99b09
+2018-03-03 16:07:16.590 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@de7e193
+2018-03-03 16:07:16.590 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@de7e193
+2018-03-03 16:07:16.590 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@de7e193
+2018-03-03 16:07:16.591 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@46046c06
+2018-03-03 16:07:16.591 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@46046c06
+2018-03-03 16:07:16.591 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@46046c06
+2018-03-03 16:07:16.592 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@5a97b17c
+2018-03-03 16:07:16.593 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@32ec9c90
+2018-03-03 16:07:16.611 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@32bb0072
+2018-03-03 16:07:16.611 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@32bb0072
+2018-03-03 16:07:16.611 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@32bb0072
+2018-03-03 16:07:16.611 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@5dcd0cdf
+2018-03-03 16:07:16.611 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@5dcd0cdf
+2018-03-03 16:07:16.611 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@5dcd0cdf
+2018-03-03 16:07:16.637 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@4c0e426a
+2018-03-03 16:07:16.638 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@f29353f
+2018-03-03 16:07:16.640 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@4a8ffd75
+2018-03-03 16:07:16.640 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4a8ffd75
+2018-03-03 16:07:16.640 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@23da79eb
+2018-03-03 16:07:16.671 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@da28d03
+2018-03-03 16:07:16.671 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@da28d03
+2018-03-03 16:07:16.671 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@630bf683
+2018-03-03 16:07:16.671 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@630bf683
+2018-03-03 16:07:16.671 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@6723610b
+2018-03-03 16:07:16.671 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@7ab1127c
+2018-03-03 16:07:16.671 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@59939293
+2018-03-03 16:07:16.693 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@dd4aec3
+2018-03-03 16:07:16.693 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@dd4aec3
+2018-03-03 16:07:16.694 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@3e28fee1
+2018-03-03 16:07:16.694 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@16a2ed51
+2018-03-03 16:07:16.694 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3b332962
+2018-03-03 16:07:16.694 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@57ddd45b
+2018-03-03 16:07:16.694 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2e7bf7b7
+2018-03-03 16:07:16.694 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2fb25f4c
+2018-03-03 16:07:16.694 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@de81be1
+2018-03-03 16:07:16.694 DEBUG 9752 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@342e690b
+2018-03-03 16:07:17.102  INFO 9752 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-03 16:07:19.301 TRACE 9752 --- [           main] org.hibernate.type.TypeFactory           : Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@3380ca3d
+2018-03-03 16:07:21.198  INFO 9752 --- [           main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-03-03 16:07:21.807  INFO 9752 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-03 16:07:24.591 DEBUG 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : Looking for request mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f9a2c08: startup date [Sat Mar 03 16:07:03 IST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1622f1b
+2018-03-03 16:07:24.627 DEBUG 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : 2 request handler methods found on class org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint: {public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint.authorize(java.util.Map,java.util.Map,org.springframework.web.bind.support.SessionStatus,java.security.Principal)={[/oauth/authorize]}, public org.springframework.web.servlet.View org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint.approveOrDeny(java.util.Map,java.util.Map,org.springframework.web.bind.support.SessionStatus,java.security.Principal)={[/oauth/authorize],methods=[POST],params=[user_oauth_approval]}}
+2018-03-03 16:07:24.627  INFO 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/authorize]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint.authorize(java.util.Map<java.lang.String, java.lang.Object>,java.util.Map<java.lang.String, java.lang.String>,org.springframework.web.bind.support.SessionStatus,java.security.Principal)
+2018-03-03 16:07:24.627  INFO 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/authorize],methods=[POST],params=[user_oauth_approval]}" onto public org.springframework.web.servlet.View org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint.approveOrDeny(java.util.Map<java.lang.String, java.lang.String>,java.util.Map<java.lang.String, ?>,org.springframework.web.bind.support.SessionStatus,java.security.Principal)
+2018-03-03 16:07:24.627 DEBUG 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : 2 request handler methods found on class org.springframework.security.oauth2.provider.endpoint.TokenEndpoint: {public org.springframework.http.ResponseEntity org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.getAccessToken(java.security.Principal,java.util.Map) throws org.springframework.web.HttpRequestMethodNotSupportedException={[/oauth/token],methods=[GET]}, public org.springframework.http.ResponseEntity org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.postAccessToken(java.security.Principal,java.util.Map) throws org.springframework.web.HttpRequestMethodNotSupportedException={[/oauth/token],methods=[POST]}}
+2018-03-03 16:07:24.627  INFO 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/token],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.springframework.security.oauth2.common.OAuth2AccessToken> org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.getAccessToken(java.security.Principal,java.util.Map<java.lang.String, java.lang.String>) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2018-03-03 16:07:24.627  INFO 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/token],methods=[POST]}" onto public org.springframework.http.ResponseEntity<org.springframework.security.oauth2.common.OAuth2AccessToken> org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.postAccessToken(java.security.Principal,java.util.Map<java.lang.String, java.lang.String>) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2018-03-03 16:07:24.627 DEBUG 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : 1 request handler methods found on class org.springframework.security.oauth2.provider.endpoint.CheckTokenEndpoint: {public java.util.Map org.springframework.security.oauth2.provider.endpoint.CheckTokenEndpoint.checkToken(java.lang.String)={[/oauth/check_token]}}
+2018-03-03 16:07:24.627  INFO 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/check_token]}" onto public java.util.Map<java.lang.String, ?> org.springframework.security.oauth2.provider.endpoint.CheckTokenEndpoint.checkToken(java.lang.String)
+2018-03-03 16:07:24.627 DEBUG 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : 1 request handler methods found on class org.springframework.security.oauth2.provider.endpoint.WhitelabelApprovalEndpoint: {public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.WhitelabelApprovalEndpoint.getAccessConfirmation(java.util.Map,javax.servlet.http.HttpServletRequest) throws java.lang.Exception={[/oauth/confirm_access]}}
+2018-03-03 16:07:24.627  INFO 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/confirm_access]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.WhitelabelApprovalEndpoint.getAccessConfirmation(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2018-03-03 16:07:24.627 DEBUG 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : 1 request handler methods found on class org.springframework.security.oauth2.provider.endpoint.WhitelabelErrorEndpoint: {public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.WhitelabelErrorEndpoint.handleError(javax.servlet.http.HttpServletRequest)={[/oauth/error]}}
+2018-03-03 16:07:24.627  INFO 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/error]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.WhitelabelErrorEndpoint.handleError(javax.servlet.http.HttpServletRequest)
+2018-03-03 16:07:24.627 DEBUG 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : 1 request handler methods found on class org.springframework.security.oauth2.provider.endpoint.TokenKeyEndpoint: {public java.util.Map org.springframework.security.oauth2.provider.endpoint.TokenKeyEndpoint.getKey(java.security.Principal)={[/oauth/token_key],methods=[GET]}}
+2018-03-03 16:07:24.627  INFO 9752 --- [           main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/token_key],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> org.springframework.security.oauth2.provider.endpoint.TokenKeyEndpoint.getKey(java.security.Principal)
+2018-03-03 16:07:27.260  INFO 9752 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a9bce99, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dece1f9, org.springframework.security.web.header.HeaderWriterFilter@78545d40, org.springframework.security.web.authentication.logout.LogoutFilter@77ecdc2b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@30d15e4a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32b112a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7de5871d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a0f87e5, org.springframework.security.web.session.SessionManagementFilter@144a5e6e, org.springframework.security.web.access.ExceptionTranslationFilter@2cea921a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@145e958f]
+2018-03-03 16:07:27.352  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/generic/account/updatepwd],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Boolean> com.z4ventures.budd.controllers.AccountController.updatePassword(java.lang.String,java.lang.String)
+2018-03-03 16:07:27.352  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/account/updateBasicInfo/{userId}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Boolean> com.z4ventures.budd.controllers.AccountController.updateBasicInfo(com.z4ventures.budd.models.Account,java.lang.Long)
+2018-03-03 16:07:27.352  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/generic/account/register],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.z4ventures.budd.models.Account> com.z4ventures.budd.controllers.AccountController.registerAccount(com.z4ventures.budd.models.Account)
+2018-03-03 16:07:27.352  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/account/remove],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.z4ventures.budd.controllers.GeneralController$RestMsg> com.z4ventures.budd.controllers.AccountController.removeAccount(java.security.Principal)
+2018-03-03 16:07:27.352  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/account/firebase],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Boolean> com.z4ventures.budd.controllers.AccountController.updateFirebase(java.lang.String)
+2018-03-03 16:07:27.352  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/hello],methods=[GET],produces=[application/json]}" onto public com.z4ventures.budd.controllers.GeneralController$RestMsg com.z4ventures.budd.controllers.GeneralController.helloUser()
+2018-03-03 16:07:27.352  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/admin],methods=[GET]}" onto public com.z4ventures.budd.controllers.GeneralController$RestMsg com.z4ventures.budd.controllers.GeneralController.helloAdmin(java.security.Principal)
+2018-03-03 16:07:27.352  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public com.z4ventures.budd.controllers.GeneralController$RestMsg com.z4ventures.budd.controllers.GeneralController.hello()
+2018-03-03 16:07:27.352  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/test],methods=[GET]}" onto public com.z4ventures.budd.controllers.GeneralController$RestMsg com.z4ventures.budd.controllers.GeneralController.apitest()
+2018-03-03 16:07:27.352  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-03 16:07:27.352  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-03 16:07:27.398  INFO 9752 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 16:07:27.398  INFO 9752 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 16:07:27.418  INFO 9752 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-03-03 16:07:27.744  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-03 16:07:27.760  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-03-03 16:07:27.760  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-03-03 16:07:27.760  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-03 16:07:27.760  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-03 16:07:27.760  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-03 16:07:27.760  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-03-03 16:07:27.760  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-03-03 16:07:27.760  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-03-03 16:07:27.760  INFO 9752 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-03 16:07:27.760  INFO 9752 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$LazyEndpointPathRequestMatcher@1de85972, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@280ecc33, org.springframework.security.web.context.SecurityContextPersistenceFilter@218df7d6, org.springframework.security.web.header.HeaderWriterFilter@1d1c37d5, org.springframework.web.filter.CorsFilter@57b1ec84, org.springframework.security.web.authentication.logout.LogoutFilter@1fee4278, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5cffec7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@295b07e0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55053f81, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c27f72, org.springframework.security.web.session.SessionManagementFilter@63553e9f, org.springframework.security.web.access.ExceptionTranslationFilter@52cb52bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b6262bc]
+2018-03-03 16:07:27.776  INFO 9752 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: com.z4ventures.budd.security.ResourceConfig$OAuthRequestedMatcher@3ff8a3ad, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@550fa96f, org.springframework.security.web.context.SecurityContextPersistenceFilter@15f519f7, org.springframework.security.web.header.HeaderWriterFilter@2211b44f, org.springframework.security.web.authentication.logout.LogoutFilter@11ad095c, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@74bbc273, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a336377, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65af05b2, org.springframework.security.web.session.SessionManagementFilter@6c830ebd, org.springframework.security.web.access.ExceptionTranslationFilter@43d3995f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@401926df]
+2018-03-03 16:07:27.776  INFO 9752 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e8d9bb6, org.springframework.security.web.context.SecurityContextPersistenceFilter@6851b296, org.springframework.security.web.header.HeaderWriterFilter@77ba583, org.springframework.security.web.csrf.CsrfFilter@12f8682a, org.springframework.security.web.authentication.logout.LogoutFilter@1c171746, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@79b7c350, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9e50283, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5368e981, org.springframework.security.web.session.SessionManagementFilter@5613247e, org.springframework.security.web.access.ExceptionTranslationFilter@7752c0e7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2fb48970]
+2018-03-03 16:07:27.776  WARN 9752 --- [           main] o.s.s.c.a.web.builders.WebSecurity       : 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+2018-03-03 16:07:28.411  INFO 9752 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f9a2c08: startup date [Sat Mar 03 16:07:03 IST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1622f1b
+2018-03-03 16:07:29.198  INFO 9752 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-03 16:07:29.245  INFO 9752 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-03-03 16:07:29.245  INFO 9752 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-03-03 16:07:29.245  INFO 9752 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-03-03 16:07:29.245  INFO 9752 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-03-03 16:07:29.245  INFO 9752 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-03-03 16:07:29.307  INFO 9752 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-03-03 16:07:29.307  INFO 9752 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4f9a2c08,type=ConfigurationPropertiesRebinder]
+2018-03-03 16:07:29.323  INFO 9752 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-03-03 16:07:29.524  INFO 9752 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-03-03 16:07:30.117  INFO 9752 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2018-03-03 16:07:30.133  INFO 9752 --- [           main] com.z4ventures.budd.BuddApplication      : Started BuddApplication in 35.827 seconds (JVM running for 57.53)
+2018-03-03 16:09:04.492  INFO 9752 --- [nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-03 16:09:04.492  INFO 9752 --- [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-03 16:09:04.509  INFO 9752 --- [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2018-03-03 16:09:04.528  INFO 9752 --- [nio-8083-exec-1] Spring Security Debugger                 : 
+
+************************************************************
+
+Request received for POST '/generic/account/register':
+
+org.apache.catalina.connector.RequestFacade@109693f2
+
+servletPath:/generic/account/register
+pathInfo:null
+headers: 
+content-type: application/json
+cache-control: no-cache
+postman-token: 5a546504-f2dc-4214-95b5-44b0807ddb25
+authorization: Basic dXNlcjpwYXNzd29yZA==
+user-agent: PostmanRuntime/7.1.1
+accept: */*
+host: localhost:8083
+cookie: JSESSIONID=68CE1C4D93D98A72D9F8302FF005FB59
+accept-encoding: gzip, deflate
+content-length: 110
+connection: keep-alive
+
+
+Security filter chain: [
+  WebAsyncManagerIntegrationFilter
+  SecurityContextPersistenceFilter
+  HeaderWriterFilter
+  CsrfFilter
+  LogoutFilter
+  BasicAuthenticationFilter
+  RequestCacheAwareFilter
+  SecurityContextHolderAwareRequestFilter
+  SessionManagementFilter
+  ExceptionTranslationFilter
+  FilterSecurityInterceptor
+]
+
+
+************************************************************
+
+
+2018-03-03 16:09:04.538  INFO 9752 --- [nio-8083-exec-1] Spring Security Debugger                 : 
+
+************************************************************
+
+New HTTP session created: 75EF8F5D2F33A24F18083DD97491B27F
+
+Call stack: 
+
+	at org.springframework.security.web.debug.Logger.info(Logger.java:44)
+	at org.springframework.security.web.debug.DebugRequestWrapper.getSession(DebugFilter.java:166)
+	at javax.servlet.http.HttpServletRequestWrapper.getSession(HttpServletRequestWrapper.java:240)
+	at javax.servlet.http.HttpServletRequestWrapper.getSession(HttpServletRequestWrapper.java:240)
+	at org.springframework.security.web.csrf.HttpSessionCsrfTokenRepository.saveToken(HttpSessionCsrfTokenRepository.java:63)
+	at org.springframework.security.web.csrf.LazyCsrfTokenRepository$SaveOnAccessCsrfToken.saveTokenIfNecessary(LazyCsrfTokenRepository.java:176)
+	at org.springframework.security.web.csrf.LazyCsrfTokenRepository$SaveOnAccessCsrfToken.getToken(LazyCsrfTokenRepository.java:128)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.security.web.debug.DebugFilter.invokeWithWrappedRequest(DebugFilter.java:90)
+	at org.springframework.security.web.debug.DebugFilter.doFilter(DebugFilter.java:77)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+************************************************************
+
+
